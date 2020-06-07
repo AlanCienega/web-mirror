@@ -1,0 +1,28 @@
+.gradient {
+    background: linear-gradient(to right, rgb(173, 112, 42),
+                                        rgb(107, 61, 31), 
+                                        rgb(196, 83, 39), 
+                                        rgb(150, 65, 26));
+    border-radius: 10%;
+    color: #122dff;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+
+  }
+  .gradient video {
+    background: #fff;
+    display: block;
+    border-radius: 10%;
+  }
+  
+  body {
+    text-align: center;
+    margin-top: 30px;
+    background-color: gray;
+    background-image: url('images.jpg');
+  }
+  video {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
