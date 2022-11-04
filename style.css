@@ -1,4 +1,4 @@
-.gradient {
+.mirror-frame {
     border-radius: 10%;
     color: #000000;
     display: inline-block;
@@ -17,6 +17,7 @@
     
   }
   video {
+    border-radius: 10%;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
   }
